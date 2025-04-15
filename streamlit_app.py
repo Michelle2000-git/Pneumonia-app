@@ -1,6 +1,6 @@
-!pip install streamlit -q
-!wget -q -O - ipv4.icanhazip.com
-!npm install -g localtunnel
+pip install streamlit -q
+wget -q -O - ipv4.icanhazip.com
+npm install -g localtunnel
 %%writefile app.py
 import streamlit as st
 import tensorflow as tf
